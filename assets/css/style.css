@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Katana;
+  src: url('../fonts/Katana/Katanf.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img{
+  width: 15em;
+}
+
+.menu ul {
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  background-color: #1A1A1A;
+  padding: 5px 0;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.35);
+}
+
+.menu li {
+  display: inline;
+  padding: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.5em;
+  font-family: Katana;
+}
+
+.menu a:active,
+.menu a:focus,
+.menu a:link {
+  text-decoration: none;
+  color: #FFF;
+  outline: none;
+}
+
+.menu a:hover {
+  background-color: #FFF;
+  color: #1A1A1A;
+  padding: 5px 0;
+}
