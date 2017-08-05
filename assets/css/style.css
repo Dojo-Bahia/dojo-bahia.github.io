@@ -3,6 +3,16 @@
   src: url('../fonts/Katana/Katanf.ttf');
 }
 
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -50,4 +60,70 @@
   background-color: #FFF;
   color: #1A1A1A;
   padding: 5px 0;
+}
+
+section {
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+  padding: 30px 20px;
+}
+
+.about {
+  width: 100%;
+}
+
+.about p {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.about h2 {
+  font-size: 22px;
+}
+
+.calling {
+  background-color: #1A1A1A;
+  color: #fff;
+  width:100%;
+  text-align: center;
+}
+
+.calling h2 {
+  font-size: 35px;
+}
+
+.calling p {
+  font-size: 18px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.calling button {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 10px 30px;
+  font-family: Montserrat-Regular;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1A1A1A;
+  border: none;
+  border-radius: 8px;
+}
+
+.calling button:hover {
+  font-family: Montserrat-SemiBold;
+  cursor: pointer;
+}
+
+.calling button a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+.calling a:hover,
+.calling a:active,
+.calling a:focus,
+.calling a:link {
+  text-decoration: none;
+  outline: none;
 }
